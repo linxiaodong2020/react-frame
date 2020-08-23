@@ -1,0 +1,67 @@
+{
+  /**  vscode 系统配置项 */
+  "window.zoomLevel": -2,
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.foldingStrategy": "indentation",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "editor.tabCompletion": "on",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true,
+    "source.fixAll.eslint": true
+  },
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.rendererType": "dom",
+  /**  代码格式化配置 */
+  "editor.tabSize": 2,
+  // 打开对vue的lint,并自动fix
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  // 尽可能控制尾随逗号的打印
+  "prettier.trailingComma": "all",
+  // 在保存时格式化文件
+  "editor.formatOnSave": true,
+  // 保存时自动fix
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  /**  第三方插件库配置 */
+
+  "workbench.iconTheme": "vscode-icons",
+
+  // 自动导入
+  "typescript.updateImportsOnFileMove.enabled": "prompt",
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "javascript.suggest.autoImports": true,
+  // 文件修改自动载入作者与时间
+
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

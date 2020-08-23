@@ -1,0 +1,8 @@
+@import "@/sass/vars/frame.scss";
+.bread-crumb-wrapper {
+  height: $bread-crumb-height;
+  line-height: $bread-crumb-height;
+  .ant-breadcrumb {
+    line-height: $bread-crumb-height;
+  }
+}

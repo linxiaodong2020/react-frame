@@ -1,0 +1,17 @@
+@import "@/sass/vars/frame.scss";
+.frame-wrapper {
+  height: 100%;
+  .sider,
+  .main {
+    height: 100%;
+  }
+  .main {
+    .header {
+      height: $header-height;
+    }
+    .content {
+      height: calc(100%-$header-height);
+      overflow: auto;
+    }
+  }
+}
